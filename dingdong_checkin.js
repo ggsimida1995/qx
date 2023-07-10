@@ -16,6 +16,7 @@ function getUserId(cookie) {
         "Referer": "https://activity.m.ddxq.mobi/",
         "Host": "maicai.api.ddxq.mobi",
         "Origin": "https://activity.m.ddxq.mobi",
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 xzone/10.13.0 station_id/5c3867ecd033a128618b456b device_id/c36dfd19174916dd2b3e5f8b10381a8d83ce0c1c"
         "Cookie": cookie
       }
     }).then(resp => {

@@ -11,7 +11,7 @@ let currentBody = "";
 function getUserId(cookie) {
   return new Promise((resolve, reject) => {
     $.http.get({
-      url: "https://maicai.api.ddxq.mobi/user/info",
+      url: "https://maicai.api.ddxq.mobi/user/info?api_version=9.7.3&app_client_id=3&app_version=2.13.8&app_client_name=activity&station_id=5c3867ecd033a128618b456b&native_version=10.13.0&city_number=0901&device_id=c36dfd19174916dd2b3e5f8b10381a8d83ce0c1c&latitude=30.320669&longitude=120.124554",
       headers: {
         "Referer": "https://activity.m.ddxq.mobi/",
         "Host": "maicai.api.ddxq.mobi",
